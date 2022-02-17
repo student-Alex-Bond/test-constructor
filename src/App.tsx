@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Registration from "./components/Registration/Registration";
+
+import Header from "./components/Header/Header";
 import Login from "./components/Login/Login";
 
 
@@ -8,8 +9,9 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <Registration/>
+                <Header/>
                 <Login/>
+
             </header>
         </div>
     );

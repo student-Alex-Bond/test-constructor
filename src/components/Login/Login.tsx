@@ -1,30 +1,30 @@
 import React from 'react';
-import styles from '../Registration/Registration.module.css'
+import styles from './Login.module.css'
+import Input from "../Common/Input";
+import Button from "../Common/Button";
 
 const Login = () => {
+
+    const authorization = () => {
+
+    }
+
     return (
         <section className={styles.wrapper}>
             <form className={styles.form}>
-                <h2 className={styles.title}>Войти</h2>
-                <label>
-                    <p>Ваш ник</p>
-                    <input type={'text'} placeholder={'ваш ник'}/>
-                </label>
-
-                <label>
-                    <p>Ваш пароль</p>
-                    <input type={'password'} placeholder={'ваш ник'}/>
-                </label>
-
-                <label>
-                    <input type={"checkbox"}/>
-                    <p>Запомнить меня</p>
-                    <button type={'submit'}>Войти</button>
-                </label>
-
-
-                <a href={'ya.ru'}>Забыли пароль?</a>
+                <h2>Авторизация</h2>
+                <Input type={'text'} placeholder={'ваш ник'}/>
+                <Input type={'password'} placeholder={'ваш пароль'}/>
+                <Button type={'submit'} onClick={authorization}>Войти</Button>
             </form>
+            <div className={styles.other}>
+                <label className={styles.remember}>
+                    <input className={styles.checked} type={"checkbox"}/>
+                    <span>Запомнить меня</span>
+                </label>
+                <a href={'ya.ru'}>Забыли пароль?</a>
+            </div>
+
         </section>
     );
 };

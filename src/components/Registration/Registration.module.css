@@ -1,8 +1,9 @@
 .wrapper {
     width: 420px;
-    border: 1px solid #d3ffce;
     border-radius: 5px;
     padding:  35px;
+    margin: 80px auto 0;
+    font-family: Oxygen sans-serif;
 }
 
 .title{
@@ -18,35 +19,5 @@
     justify-content: space-between;
     height: 410px;
 }
-.form input {
-    width: 350px;
-    height: 30px;
-    border-radius: 5px;
-    border: 0;
-    font-size: 16px;
-    padding: 2px 10px;
-    border-bottom: 2px solid black;
-    outline: 0;
-}
 
 
-.form button {
-    font-size: 20px;
-    width: 375px;
-    height: 40px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-}
-
-.form p {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    margin: 0 0 2px 5px;
-    font-size: 18px;
-}
-
-.form h2 {
-    margin: 0;
-}
