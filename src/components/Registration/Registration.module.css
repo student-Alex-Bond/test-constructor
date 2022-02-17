@@ -1,6 +1,6 @@
 .wrapper {
     width: 420px;
-    border: 1px solid;
+    border: 1px solid #d3ffce;
     border-radius: 5px;
     padding:  35px;
 }
@@ -22,11 +22,13 @@
     width: 350px;
     height: 30px;
     border-radius: 5px;
-    border: none;
+    border: 0;
     font-size: 16px;
     padding: 2px 10px;
-
+    border-bottom: 2px solid black;
+    outline: 0;
 }
+
 
 .form button {
     font-size: 20px;
