@@ -1,0 +1,42 @@
+.wrapper {
+    position: relative;
+    background-color: transparent;
+}
+
+.ava {
+    width: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 42px;
+    right: 5px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+    transition: .55s opacity, .55s visibility;
+}
+
+.menuCollapsed {
+    opacity: 0;
+    visibility: collapse;
+    transition: .55s opacity, .55s visibility;
+}
+
+.menu>div {
+    border-radius: 5%;
+    width: 100%;
+    font-size: 20px;
+    color: darkslateblue;
+    padding: 0 10px;
+}
+
+.menu>div:hover {
+    background-color: blue;
+}
