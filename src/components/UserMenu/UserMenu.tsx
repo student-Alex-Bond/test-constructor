@@ -1,4 +1,3 @@
-import { userInfo } from "os";
 import React, { DetailedHTMLProps, HTMLAttributes } from "react";
 import avatar from '../../date/user-icon-4.png'
 import styles from './UserMenu.module.css';
@@ -22,7 +21,7 @@ const UserMenu = (props: UserMenuType) => {
     return (
         <div className={styles.wrapper}>
             <img className={styles.ava}
-                src={avatar} alt={'avatar photo'}
+                src={avatar} alt={'avatar'}
                 onClick={collapse} />
             <div className={finalClass} onClick={collapse}>
                 <div>Профиль</div>
