@@ -1,10 +1,7 @@
-import React from 'react';
 import './App.css';
 
 import Header from "./components/Header/Header";
-import Login from "./components/Login/Login";
-import { PasswordReset } from './components/PasswordReset/PasswordReset'
-import { NewPassword } from './components/NewPassword/NewPassword'
+import { MyTests } from './components/MyTests/MyTests';
 
 
 function App() {
@@ -12,7 +9,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <Header />
-                <NewPassword />
+                <MyTests />
 
             </header>
         </div>

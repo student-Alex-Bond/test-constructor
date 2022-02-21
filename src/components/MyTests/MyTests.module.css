@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    width: 150px;
+}
+
+.header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.wrapper .tableTitle {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+
+.wrapper .tableItem {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+
+.tableItem>span {
+    font-size: 18px;
+}
+
+.tableTitle>span {
+    font-weight: bold;
+    font-size: 20px;
+}
