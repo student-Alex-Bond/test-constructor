@@ -1,8 +1,7 @@
 import './App.css';
 
 import Header from "./components/Header/Header";
-import { MyTests } from './components/MyTests/MyTests';
-import { PassedTests } from './components/PassedTests/PassedTests';
+import ItSelfTest from './components/ItSelfTest/ItSelfTest';
 
 
 function App() {
@@ -10,8 +9,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <Header />
-                <MyTests />
-                <PassedTests />
+                <ItSelfTest />
 
             </header>
         </div>
