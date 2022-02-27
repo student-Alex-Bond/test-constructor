@@ -1,10 +1,10 @@
 * {
-  background-color: #f3f6f4;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Oxygen sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oxygen sans-serif;
 }
 
-
-
+body {
+    background-color: #F0EBF8;
+}

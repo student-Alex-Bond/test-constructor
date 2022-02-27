@@ -4,13 +4,17 @@ import styles from './ItSelfTest.module.css'
 
 const ItSelfTest = () => {
 
+    const inlineStyle = {
+        width: '150px'
+    }
+
     const onClickHandler = () => {
 
     }
 
     return (
         <div className={styles.wrapper}>
-            <h2>Название теста</h2>
+            <h1>Название теста</h1>
             <section className={styles.test}>
                 <div className={styles.testItem}>
                     <span>1.</span>
@@ -30,8 +34,8 @@ const ItSelfTest = () => {
 
                 </div>
                 <section className={styles.btn}>
-                    <Button onClick={onClickHandler}>Выйти</Button>
-                    <Button onClick={onClickHandler}>Закончить</Button>
+                    <Button customStyle={inlineStyle} onClick={onClickHandler}>Выйти</Button>
+                    <Button customStyle={inlineStyle} onClick={onClickHandler}>Закончить</Button>
                 </section>
             </section>
         </div>
